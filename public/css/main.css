@@ -1,0 +1,13 @@
+.scroll {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.input-field textarea {
+    height: 100px;
+}
