@@ -15,7 +15,7 @@ app.use(express.static(join(__dirname, 'public')));
 io.on('connection', (socket) => {
   console.log('a user connected');
   socket.on('mensaje', (msg) => {
-    console.log('message: ' + msg);
+    console.log('message: ', msg);
     io.emit('mensaje', msg);
   });
   socket.on('disconnect', () => {
