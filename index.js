@@ -3,6 +3,8 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { createServer } from "http";
 import { Server } from "socket.io";
+const port = process.env.PORT || 3000;
+
 
 const app = express();
 const server = createServer(app);
